@@ -156,7 +156,7 @@ public class TestActivity extends ActionBarActivity {
 					makePost(null, "Hello, friends!");
 					break;
 				case R.id.wall_getById:
-					startApiCall(VKApi.wall().getById(VKParameters.from(VKApiConst.POSTS, "1_45558")));
+					startApiCall(VKApi.wall().getById(VKParameters.from(VKApiConst.POSTS, "242269246_44239651"/*"1_45558"*/)));
 					break;
 				case R.id.test_validation:
 					startApiCall(new VKRequest("account.testValidation"));
